@@ -1,0 +1,70 @@
+.add-scenario-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+   /* Setting a background color for the form */
+  border-radius: 10px;
+  max-width: 450px; /* Increased the max-width for more space */
+  margin: 50px auto;
+  height: auto; /* Adjusted to allow flexibility */
+}
+
+.add-scenario-page h1 {
+  color: #ececec;
+  margin-bottom: 20px;
+}
+
+.form-back {
+  background-color: rgb(43, 41, 41);
+  margin-top: 20px;
+  padding: 20px; /* Adjusted padding for more space */
+  border-radius: 10px; /* Ensure the form-back also has rounded corners */
+  width: 100%; /* Ensure it takes the full width of the parent */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc; /* Changed color for better visibility */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button-group .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-group .btn-add {
+  background-color: rgb(56, 176, 56);
+  color: white;
+}
+
+.button-group .btn-reset {
+  background-color: rgb(226, 137, 20);
+  color: white;
+}
+
+.button-group .btn-back {
+  background-color: rgb(26, 184, 201);
+  color: white;
+}

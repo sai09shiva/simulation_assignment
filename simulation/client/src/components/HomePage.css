@@ -1,0 +1,102 @@
+.home-page {
+  padding: 20px;
+  
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.scenario-selector {
+  margin-bottom: 20px;
+}
+
+.scenario-selector label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+.scenario-selector select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.vehicle-table th {
+  background-color: lightgrey;
+  padding: 10px;
+  text-align: left;
+}
+
+.vehicle-table td {
+  background-color: silver;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.edit-button, .delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.simulation-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stop-button {
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid {
+  position: relative;
+  width: 900px;
+  height: 900px;
+  background-color: rgb(31, 26, 26);
+  background-image: linear-gradient(to right, #00ff00 1px, transparent 1px),
+                    linear-gradient(to bottom, #00ff00 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.grid-item {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.vehicle {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}

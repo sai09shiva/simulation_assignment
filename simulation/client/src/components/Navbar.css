@@ -1,0 +1,30 @@
+/* navbar.css */
+.navbar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  width: 250px; /* Fixed width */
+  height: 100%; /* Full height */
+  background-color: silver; /* Background color */
+  padding: 20px; /* Padding inside the navbar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  overflow-y: auto; /* Scroll if content overflows */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Text color */
+  padding: 15px; /* Padding for better clickability */
+  margin: 10px 0; /* Space between links */
+  border-radius: 5px; /* Rounded corners */
+  display: block; /* Ensure full-width clickable area */
+  background-color: silver; /* Background color for link items */
+}
+
+.navbar-link:hover {
+  background-color: #ddd; /* Background color on hover */
+}
+
+.navbar-link li {
+  list-style: none; /* Remove list bullets */
+}

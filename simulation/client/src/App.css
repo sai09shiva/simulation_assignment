@@ -1,0 +1,24 @@
+/* App.css */
+
+/* App.css */
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar{
+  width: 250px; /* Set the width of the navbar */
+  background-color: silver; /* Optional: Background color for the navbar */
+  padding: 20px;
+  
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visual separation */
+}
+
+
+.content-container {
+  flex: 1; /* Takes up the remaining space */
+  padding: 20px;
+  overflow-y: auto; /* Allows scrolling if the content overflows */
+  background-color:rgb(29, 29, 29); /* Optional: Background color for the content */
+}

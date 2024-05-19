@@ -1,0 +1,67 @@
+/* addVehicle.css */
+.add-vehicle-page {
+    padding: 20px;
+    background-color: #2e2e2e; /* Dark background to match the image */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: auto;
+  }
+  
+  .add-vehicle-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Text color to match the image */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Label text color to match the image */
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #555; /* Border color to match the image */
+    border-radius: 5px;
+    background-color: #444; /* Input background to match the image */
+    color: white; /* Input text color to match the image */
+  }
+  
+  .form-group input::placeholder,
+  .form-group select::placeholder {
+    color: #ccc; /* Placeholder text color */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-add {
+    background-color: #28a745; /* Green for "Add" */
+  }
+  
+  .btn-reset {
+    background-color: #ffc107; /* Orange for "Reset" */
+  }
+  
+  .btn-back {
+    background-color: #007bff; /* Blue for "Go Back" */
+  }
+  

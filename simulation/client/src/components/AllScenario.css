@@ -1,0 +1,76 @@
+.all-scenarios-page {
+  padding: 20px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Removes underline */
+  color: white;
+}
+
+.btn-new {
+  background-color: green;
+  margin-right: 10px;
+}
+
+.btn-add {
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.scenarios-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scenarios-table th, .scenarios-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.scenarios-table th {
+  background-color: #f2f2f2;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none; /* Removes underline from icon buttons */
+}
+
+.btn-icon:hover {
+  color: darkblue;
+}
+
+.btn-add-vehicle, .btn-edit, .btn-delete {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-add-vehicle {
+  background-color: green;
+  color: white;
+}
+
+.btn-edit {
+  background-color: orange;
+  color: white;
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+}
